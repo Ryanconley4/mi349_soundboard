@@ -8,7 +8,38 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <section class="images">
+        <div class="eq_flex center clap_background"><img class="medium_button" src="clap.jpg" alt="Hands clapping"></div>
+        <div class="eq_flex center  ball_background"><img class="medium_button" src="baseball.jpg" alt="Baseball"></div>
+        <div class="eq_flex center  car_background"><img class="medium_button" src="car.jpg" alt="Red car"></div>
+    </section>
+    <section class="audio">
+        <div class="center eq_flex clap_background">
+            <button class="medium_button" id="applause_button">
+                Round of Applause
+            </button>
+            <audio src="applause.wav" id="applause_audio">
+                Your browser does not support <code>audio</code> element.
+            </audio>
+        </div>
+        <div class="center eq_flex ball_background">
+            <button class="medium_button" id="baseball_button">
+                Homerun!
+            </button>
+            <audio src="baseball_hit.wav" id="baseball_audio">
+                Your browser does not support <code>audio</code> element.
+            </audio>
+        </div>
+        <div class="center eq_flex car_background">
+            <button class="medium_button" id="car_button">
+                Start the Car
+            </button>
+            <audio src="car.wav" id="car_audio">
+                Your browser does not support <code>audio</code> element.
+            </audio>
+        </div>
+    </section>
+    <p class="center" id="title">My Soundboard</p>
     <script src="soundboard.js"></script>
 </body>
 </html>

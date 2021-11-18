@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+
+.audio {
+    display: flex;
+}
+
+.images {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.eq_flex {
+    flex: 1;
+}
+
+.medium_button {
+    margin: 100px;
+    min-height: 75px;
+    min-width: 150px;
+    background-color: gray;
+}
+
+.clap_background {
+    background-color: rgb(28, 26, 58);
+}
+
+.ball_background {
+    background-color: cornflowerblue;
+}
+
+.car_background {
+    background-color: rgb(160, 113, 44);
+}
+
+#title {
+    font-size: 2em;
+}
